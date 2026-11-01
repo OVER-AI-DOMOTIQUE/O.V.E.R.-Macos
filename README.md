@@ -8,18 +8,18 @@
 
 *Optimisation · Virtualisation · Évolutivité · Réactivité*
 
-[![Version](https://img.shields.io/badge/version-0.1-5fd08a?style=flat-square)](../../releases/latest)
+[![Version](https://img.shields.io/badge/version-0.1-5fd08a?style=flat-square)](https://github.com/OVER-AI-DOMOTIQUE/O.V.E.R.-Macos/releases/latest)
 [![macOS](https://img.shields.io/badge/macOS-12%2B%20%C2%B7%20Mac%20Intel-2f7a85?style=flat-square&logo=apple&logoColor=white)](#configuration-requise)
 [![Licence](https://img.shields.io/badge/licence-PolyForm%20Noncommercial%201.0.0-d9b45f?style=flat-square)](LICENSE.md)
 [![100 % local](https://img.shields.io/badge/IA-100%20%25%20locale-e23a4e?style=flat-square)](#confidentialité)
 
-**[Télécharger](../../releases/latest)** · **[Site officiel](https://iaover.fr)** · **[Vidéo de présentation](docs/medias/over-presentation.mp4)**
+**[Télécharger](https://github.com/OVER-AI-DOMOTIQUE/O.V.E.R.-Macos/releases/latest)** · **[Site officiel](https://iaover.fr)** · **[Vidéo de présentation](https://github.com/OVER-AI-DOMOTIQUE/O.V.E.R.-Macos/releases/latest/download/over-presentation.mp4)**
 
-<a href="docs/medias/over-presentation.mp4">
-  <img src="docs/medias/presentation-apercu.jpg" alt="Vidéo de présentation d'O.V.E.R. AI (1 minute)" width="880">
+<a href="https://github.com/OVER-AI-DOMOTIQUE/O.V.E.R.-Macos/releases/latest/download/over-presentation.mp4">
+  <img src="docs/medias/apercu-anime.gif" alt="Aperçu animé d'O.V.E.R. AI : discussion, actions sur le Mac, voix et recherche web" width="880">
 </a>
 
-<!-- Lecteur vidéo intégré : sur GitHub, modifier ce fichier et glisser docs/medias/over-presentation.mp4 sur cette ligne. -->
+▶ **[Vidéo complète, avec musique (1 min, MP4)](https://github.com/OVER-AI-DOMOTIQUE/O.V.E.R.-Macos/releases/latest/download/over-presentation.mp4)**
 
 </div>
 
@@ -85,7 +85,7 @@ Le modèle de langage, vos conversations et sa mémoire restent sur votre ordina
 
 ## Installation
 
-1. Téléchargez **`OVER-0.1.dmg`** depuis la page [Releases](../../releases/latest) ou sur [iaover.fr](https://iaover.fr).
+1. Téléchargez **`OVER-0.1.dmg`** depuis la page [Releases](https://github.com/OVER-AI-DOMOTIQUE/O.V.E.R.-Macos/releases/latest) ou sur [iaover.fr](https://iaover.fr).
 2. Ouvrez l'image disque et glissez **O.V.E.R.** sur le dossier **Applications**.
 3. Lancez O.V.E.R. depuis vos Applications. Au premier lancement, il télécharge le modèle de langage (2,1 Go, une seule fois, taille et empreinte vérifiées). Ensuite, il fonctionne sans Internet.
 
