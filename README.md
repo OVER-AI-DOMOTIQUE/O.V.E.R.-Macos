@@ -19,8 +19,6 @@
   <img src="docs/medias/presentation-apercu.jpg" alt="Vidéo de présentation d'O.V.E.R. AI (1 minute) : cliquer pour la lancer" width="880">
 </a>
 
-▶ **[Voir la vidéo de présentation (1 min, avec musique)](https://github.com/user-attachments/assets/64a4ea94-5241-4ce7-9c50-c18038e4b0cd)**
-
 </div>
 
 ---
