@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Hors App Store (Developer ID, Hardened Runtime) : droits du Python rangé dans OVER.app
+	     (Contents/Resources/python/bin/python3). Pas de micro ni de pilotage des apps : c'est
+	     l'application qui enregistre et qui agit. Pour l'App Store : Programmes-AppStore.entitlements. -->
+	<!-- llama-cpp-python parle au moteur llama.cpp par ctypes, qui fabrique de petits morceaux de code
+	     au vol (rappels de fonctions) : il faut une mémoire exécutable non signée. -->
+	<key>com.apple.security.cs.allow-unsigned-executable-memory</key>
+	<true/>
+	<!-- Les bibliothèques des paquets (llama.cpp, numpy…) sont signées par embarquer.sh ;
+	     avec la signature locale (« - »), elles n'ont pas d'équipe Apple : macOS refuserait de les charger. -->
+	<key>com.apple.security.cs.disable-library-validation</key>
+	<true/>
+</dict>
+</plist>

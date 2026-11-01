@@ -1,0 +1,14 @@
+# Outils de l'environnement Python (.venv) : pip, setuptools et les certificats HTTPS.
+# pip 26.0.1 et setuptools 82.0.1 sont les dernières versions qui acceptent le Python 3.9 d'Apple.
+# Versions et empreintes SHA-256 figées : pip refuse tout fichier qui n'est pas listé ici
+# (pip install --require-hashes -r ce_fichier). Mise à jour : voir README, « Dépendances ».
+
+pip==26.0.1 \
+    --hash=sha256:bdb1b08f4274833d62c1aa29e20907365a2ceb950410df15fc9521bad440122b \
+    --hash=sha256:c4037d8a277c89b320abe636d59f91e6d0922d08a05b60e85e53b296613346d8
+setuptools==82.0.1 \
+    --hash=sha256:7d872682c5d01cfde07da7bccc7b65469d3dca203318515ada1de5eda35efbf9 \
+    --hash=sha256:a59e362652f08dcd477c78bb6e7bd9d80a7995bc73ce773050228a348ce2e5bb
+certifi==2026.7.22 \
+    --hash=sha256:62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775 \
+    --hash=sha256:741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55

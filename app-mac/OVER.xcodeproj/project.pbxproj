@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		203AFE8E7C8A58CF54C78E8A /* VueDiscussion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775CF5C6517EE6FAFA13B567 /* VueDiscussion.swift */; };
+		34D87C1002EC2D5CA420FBAE /* VueBulle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AD32D199B18BC12FF23333 /* VueBulle.swift */; };
+		4F066E567A7C1BD0A02A9535 /* OVERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3005719A999979F8AB1F5F5D /* OVERApp.swift */; };
+		6FDCBF0361CBFDDC457DEB7A /* Ecoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B31C0356930D83DF2DF05EC /* Ecoute.swift */; };
+		89B48C8569AC107B6218B8F1 /* VuePrincipale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3823D33C0AAC51FE23DA7 /* VuePrincipale.swift */; };
+		8FB886A599E9F29FB8051953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EBC11442CF4B870DBED04E /* Assets.xcassets */; };
+		95FA4E51CCF9B18DC66EFFA3 /* Modeles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE92F577CEAED2ACB2AFFBB /* Modeles.swift */; };
+		B7EE65CB51D35BA2DA3391DC /* Moteur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37483181E81EE898340FBCD2 /* Moteur.swift */; };
+		EF3C8A8843010D65C4762F3D /* VueReglages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87101EE9521E5F1EBBBDBFBB /* VueReglages.swift */; };
+		FE6C61963AE4949C5804C711 /* Parole.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21522F947297CBCFDF695D1 /* Parole.swift */; };
+		6B2F3C4D5E6F708192A3B4C5 /* Systeme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E2B3C4D5E6F708192A3B4 /* Systeme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B31C0356930D83DF2DF05EC /* Ecoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ecoute.swift; sourceTree = "<group>"; };
+		3005719A999979F8AB1F5F5D /* OVERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVERApp.swift; sourceTree = "<group>"; };
+		37483181E81EE898340FBCD2 /* Moteur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moteur.swift; sourceTree = "<group>"; };
+		42EBC11442CF4B870DBED04E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72AD32D199B18BC12FF23333 /* VueBulle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VueBulle.swift; sourceTree = "<group>"; };
+		775CF5C6517EE6FAFA13B567 /* VueDiscussion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VueDiscussion.swift; sourceTree = "<group>"; };
+		7CC3823D33C0AAC51FE23DA7 /* VuePrincipale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VuePrincipale.swift; sourceTree = "<group>"; };
+		87101EE9521E5F1EBBBDBFBB /* VueReglages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VueReglages.swift; sourceTree = "<group>"; };
+		950C726C1A95B702D9C4FFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21522F947297CBCFDF695D1 /* Parole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parole.swift; sourceTree = "<group>"; };
+		5A1E2B3C4D5E6F708192A3B4 /* Systeme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Systeme.swift; sourceTree = "<group>"; };
+		7C304D5E6F708192A3B4C5D6 /* OVER.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OVER.entitlements; sourceTree = "<group>"; };
+		8D415E6F708192A3B4C5D6E7 /* OVER-HorsAppStore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OVER-HorsAppStore.entitlements"; sourceTree = "<group>"; };
+		CEE92F577CEAED2ACB2AFFBB /* Modeles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modeles.swift; sourceTree = "<group>"; };
+		FB5CCDBDE04DE7717102AAD4 /* OVER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OVER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A39BEC38F21D2D4B6AB531A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266806790CE7FAC078798E60 /* OVER */ = {
+			isa = PBXGroup;
+			children = (
+				3005719A999979F8AB1F5F5D /* OVERApp.swift */,
+				37483181E81EE898340FBCD2 /* Moteur.swift */,
+				CEE92F577CEAED2ACB2AFFBB /* Modeles.swift */,
+				7CC3823D33C0AAC51FE23DA7 /* VuePrincipale.swift */,
+				775CF5C6517EE6FAFA13B567 /* VueDiscussion.swift */,
+				72AD32D199B18BC12FF23333 /* VueBulle.swift */,
+				87101EE9521E5F1EBBBDBFBB /* VueReglages.swift */,
+				2B31C0356930D83DF2DF05EC /* Ecoute.swift */,
+				A21522F947297CBCFDF695D1 /* Parole.swift */,
+				5A1E2B3C4D5E6F708192A3B4 /* Systeme.swift */,
+				42EBC11442CF4B870DBED04E /* Assets.xcassets */,
+				950C726C1A95B702D9C4FFA4 /* Info.plist */,
+				7C304D5E6F708192A3B4C5D6 /* OVER.entitlements */,
+				8D415E6F708192A3B4C5D6E7 /* OVER-HorsAppStore.entitlements */,
+			);
+			path = OVER;
+			sourceTree = "<group>";
+		};
+		5BCC076AF4DF305ADC8A37D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5CCDBDE04DE7717102AAD4 /* OVER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B086E1095CF3340D60483B21 = {
+			isa = PBXGroup;
+			children = (
+				266806790CE7FAC078798E60 /* OVER */,
+				5BCC076AF4DF305ADC8A37D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33514E1C43FED9C80FC7F019 /* OVER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD473194A5732ACD2330934C /* Build configuration list for PBXNativeTarget "OVER" */;
+			buildPhases = (
+				2AC1FE2DB3936E8102D8A098 /* Sources */,
+				A39BEC38F21D2D4B6AB531A9 /* Frameworks */,
+				0C7DFFEB7608CBB2A876FC8D /* Resources */,
+				7E5B0A1C2D3F4E5061728394 /* Embarquer Python et les scripts */,
+				10C4B0128EB4E6271F1C3F28 /* Ranger OVER.app à côté des scripts */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OVER;
+			productName = OVER;
+			productReference = FB5CCDBDE04DE7717102AAD4 /* OVER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DBD61647A8F98708EBA2CC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					33514E1C43FED9C80FC7F019 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 677DBBE9AF26FB57EA2323CC /* Build configuration list for PBXProject "OVER" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = fr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				fr,
+				Base,
+			);
+			mainGroup = B086E1095CF3340D60483B21;
+			productRefGroup = 5BCC076AF4DF305ADC8A37D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33514E1C43FED9C80FC7F019 /* OVER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C7DFFEB7608CBB2A876FC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB886A599E9F29FB8051953 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10C4B0128EB4E6271F1C3F28 /* Ranger OVER.app à côté des scripts */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Ranger OVER.app à côté des scripts";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Range une copie de l'application à côté des scripts d'O.V.E.R. (le dossier qui contient app-mac).\n# Seulement la version Release (Product ▸ Build For ▸ Profiling, ⇧⌘I), pour l'essayer ; jamais pendant\n# Product ▸ Archive (la version pour l'App Store part de l'archive). La version Debug reste dans Xcode.\nif [ \"${CONFIGURATION}\" != \"Release\" ] || [ \"${ACTION}\" = \"install\" ]; then\n  echo \"${CONFIGURATION} ${ACTION} : pas de copie à côté des scripts.\"\n  exit 0\nfi\nDESTINATION=\"${PROJECT_DIR:?}/../${FULL_PRODUCT_NAME:?}\"\nrm -rf \"${DESTINATION}\"\nditto \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\" \"${DESTINATION}\"\n# Xcode ne signe l'application qu'après cette étape : la copie est signée ici, avec la même identité,\n# les mêmes droits (bac à sable compris) et le Hardened Runtime. Sans signature, macOS ne garde pas l'accès au micro.\ncodesign --force --sign \"${EXPANDED_CODE_SIGN_IDENTITY:--}\" --timestamp=none --options runtime --entitlements \"${PROJECT_DIR:?}/${CODE_SIGN_ENTITLEMENTS:?}\" \"${DESTINATION}\" \\\n  || { echo \"error: la copie de OVER.app n'a pas pu être signée\"; exit 1; }\necho \"OVER.app signée et rangée dans ${DESTINATION}\"\n";
+		};
+		7E5B0A1C2D3F4E5061728394 /* Embarquer Python et les scripts */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Embarquer Python et les scripts";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Version Release (⇧⌘I, Product ▸ Archive pour l'App Store) : range Python 3.12 et les scripts d'O.V.E.R.\n# dans l'application (Contents/Resources) et les signe pour le bac à sable. L'emballage est obligatoire :\n# dans le bac à sable, l'application ne peut pas se servir du dossier O.V.E.R. En Debug (⌘R), elle l'utilise.\nif [ \"${CONFIGURATION}\" != \"Release\" ]; then\n  echo \"Version ${CONFIGURATION} : pas de Python embarqué (l'application utilise le dossier O.V.E.R.).\"\n  exit 0\nfi\nif [ ! -f \"${PROJECT_DIR:?}/build/Ressources/emballage.json\" ]; then\n  echo \"error: emballage absent : lance d'abord « bash app-mac/emballer.sh » (Terminal) jusqu'à « Emballage prêt », puis recommence.\"\n  exit 1\nfi\nbash \"${PROJECT_DIR:?}/embarquer.sh\" \"${TARGET_BUILD_DIR:?}/${WRAPPER_NAME:?}\" \"${EXPANDED_CODE_SIGN_IDENTITY:--}\" appstore\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AC1FE2DB3936E8102D8A098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F066E567A7C1BD0A02A9535 /* OVERApp.swift in Sources */,
+				B7EE65CB51D35BA2DA3391DC /* Moteur.swift in Sources */,
+				95FA4E51CCF9B18DC66EFFA3 /* Modeles.swift in Sources */,
+				89B48C8569AC107B6218B8F1 /* VuePrincipale.swift in Sources */,
+				203AFE8E7C8A58CF54C78E8A /* VueDiscussion.swift in Sources */,
+				34D87C1002EC2D5CA420FBAE /* VueBulle.swift in Sources */,
+				EF3C8A8843010D65C4762F3D /* VueReglages.swift in Sources */,
+				6FDCBF0361CBFDDC457DEB7A /* Ecoute.swift in Sources */,
+				FE6C61963AE4949C5804C711 /* Parole.swift in Sources */,
+				6B2F3C4D5E6F708192A3B4C5 /* Systeme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00E65457A83755080AE58C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OVER/OVER-HorsAppStore.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OVER/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = O.V.E.R.;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Jessy · iaover.fr";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.iaover.over;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		293E311BCF2917C4C8D391E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8D472089997747E00F0764E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D924F9BF84B12838D2FB89B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OVER/OVER.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OVER/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = O.V.E.R.;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Jessy · iaover.fr";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.iaover.over;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		677DBBE9AF26FB57EA2323CC /* Build configuration list for PBXProject "OVER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293E311BCF2917C4C8D391E5 /* Debug */,
+				C8D472089997747E00F0764E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD473194A5732ACD2330934C /* Build configuration list for PBXNativeTarget "OVER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E65457A83755080AE58C52 /* Debug */,
+				D924F9BF84B12838D2FB89B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DBD61647A8F98708EBA2CC0 /* Project object */;
+}

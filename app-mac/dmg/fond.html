@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Fond du DMG O.V.E.R.</title>
+<!-- Source du fond de la fenêtre d'installation (version « A · Sarcelle »).
+     Le Finder dessine lui-même, par-dessus, les icônes (128 px, centrées en 180,205 et 480,205)
+     et leurs noms : rien de tout ça ne doit être dans l'image.
+     Le sarcelle #2f7f8b sous les noms garde un contraste de 4,5:1 avec le noir (macOS clair)
+     comme avec le blanc (macOS sombre).
+     Pas de numéro de version dans l'image (il est dans le titre de la fenêtre) : le fond sert
+     pour toutes les versions. Rendu : 660 × 420 en 1x (fond.png) et 2x (fond@2x.png) ; les 20 px du bas sont une marge
+     au cas où la barre de titre de la fenêtre serait plus fine que prévu. -->
+<style>
+@font-face { font-family: "Exo 2"; font-weight: 500; src: url("exo-2-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Exo 2"; font-weight: 600; src: url("exo-2-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Exo 2"; font-weight: 700; src: url("exo-2-latin-700-normal.woff2") format("woff2"); }
+html, body { margin: 0; background: #2f7f8b; }
+.fond { width: 660px; height: 420px; position: relative; overflow: hidden; background: #2f7f8b; font-family: "Exo 2", sans-serif; }
+.bandeau { position: absolute; left: 0; top: 0; width: 660px; height: 84px; box-sizing: border-box; background: #15606e;
+  display: flex; align-items: center; gap: 14px; padding: 0 28px; }
+.bandeau img { width: 44px; height: 44px; }
+.titres { display: flex; flex-direction: column; gap: 4px; }
+.marque { font-size: 26px; font-weight: 700; letter-spacing: 0.2em; line-height: 1; color: #e8b84b; }
+.devise { font-size: 12.5px; font-weight: 500; color: #ffffff; }
+svg { position: absolute; left: 0; top: 0; }
+.consigne { position: absolute; left: 110px; right: 110px; top: 318px; display: flex; flex-direction: column; align-items: center;
+  gap: 4px; text-align: center; color: #ffffff; }
+.consigne .ligne1 { font-size: 16px; font-weight: 600; }
+.consigne .ligne2 { font-size: 12.5px; font-weight: 500; }
+.mascotte { position: absolute; left: 20px; top: 286px; width: 76px; height: 110px; filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.35)); }
+</style>
+</head>
+<body>
+<div class="fond">
+  <div class="bandeau">
+    <img src="logo.png" alt="">
+    <div class="titres">
+      <div class="marque">O.V.E.R.</div>
+      <div class="devise">Assistant vocal · tout reste sur ton Mac</div>
+    </div>
+  </div>
+  <svg width="660" height="420" viewBox="0 0 660 420" aria-hidden="true">
+    <defs><filter id="lueur" x="-1" y="-1" width="3" height="3"><feGaussianBlur stdDeviation="4"/></filter></defs>
+    <g fill="none" stroke="#e8b84b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 85 H660" stroke-opacity="0.7"/>
+      <g stroke-opacity="0.4">
+        <path d="M40 86 V112 L24 128 V172"/>
+        <path d="M0 236 H26 L42 252 V268"/>
+        <path d="M620 86 V112 L636 128 V172"/>
+        <path d="M660 236 H634 L618 252 V296"/>
+        <path d="M660 330 H642 L630 342 V372"/>
+      </g>
+      <g stroke-opacity="0.55" fill="#2f7f8b">
+        <circle cx="24" cy="176" r="3.5"/>
+        <circle cx="42" cy="272" r="3.5"/>
+        <circle cx="636" cy="176" r="3.5"/>
+        <circle cx="618" cy="300" r="3.5"/>
+        <circle cx="630" cy="376" r="3.5"/>
+      </g>
+    </g>
+    <g fill="none" stroke="#e8b84b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M268 205 H316"/>
+      <path d="M344 205 H390"/>
+      <path d="M379 193 L391 205 L379 217"/>
+      <circle cx="262" cy="205" r="4.5" fill="#2f7f8b" stroke-width="2"/>
+      <circle cx="330" cy="205" r="12" fill="#15606e" stroke-width="2"/>
+    </g>
+    <circle cx="330" cy="205" r="9" fill="#f32a56" opacity="0.55" filter="url(#lueur)"/>
+    <circle cx="330" cy="205" r="6.5" fill="#f32a56"/>
+    <circle cx="328" cy="203" r="1.8" fill="#ffffff" opacity="0.85"/>
+  </svg>
+  <div class="consigne">
+    <div class="ligne1">Glisse O.V.E.R. sur le dossier Applications</div>
+    <div class="ligne2">puis lance-le depuis tes Applications</div>
+  </div>
+  <img class="mascotte" src="mascotte.png" alt="">
+</div>
+</body>
+</html>

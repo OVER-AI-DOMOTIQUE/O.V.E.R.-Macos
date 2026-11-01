@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Version App Store (Release, archive) : O.V.E.R. vit dans le bac à sable d'Apple.
+	     Python et whisper-cli, lancés par l'application, y vivent aussi (embarquer.sh). -->
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<!-- Internet : téléchargement du modèle et de l'écoute, recherche web, météo du briefing -->
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<!-- Micro : bouton micro et raccourci pour parler (rien n'est envoyé) -->
+	<key>com.apple.security.device.audio-input</key>
+	<true/>
+	<!-- Rappels et Calendrier (EventKit) : créer un rappel, lire l'agenda du jour pour le briefing -->
+	<key>com.apple.security.personal-information.calendars</key>
+	<true/>
+	<!-- Lire le fichier que tu choisis toi-même (modèle déjà téléchargé) -->
+	<key>com.apple.security.files.user-selected.read-only</key>
+	<true/>
+</dict>
+</plist>

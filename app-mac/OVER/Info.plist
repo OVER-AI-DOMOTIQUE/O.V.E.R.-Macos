@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Textes affichés par macOS quand O.V.E.R. demande une autorisation.
+	     Le reste de l'Info.plist est produit par Xcode (réglages du projet). -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>O.V.E.R. t'écoute quand tu appuies sur le bouton micro. Ta voix est transformée en texte sur ton Mac : rien n'est envoyé.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>O.V.E.R. crée les rappels que tu lui demandes et lit ceux du jour pour ton briefing. Rien ne quitte ton Mac.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>O.V.E.R. crée les rappels que tu lui demandes et lit ceux du jour pour ton briefing. Rien ne quitte ton Mac.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>O.V.E.R. lit tes rendez-vous du jour pour ton briefing. Rien ne quitte ton Mac.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>O.V.E.R. lit tes rendez-vous du jour pour ton briefing. Rien ne quitte ton Mac.</string>
+	<!-- Seul chiffrement utilisé : HTTPS (standard, exempté) -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+</dict>
+</plist>

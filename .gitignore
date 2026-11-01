@@ -1,0 +1,26 @@
+# Fichiers à ne jamais envoyer sur GitHub.
+
+# Données personnelles d'O.V.E.R. (en mode développement, elles sont rangées dans ce dossier)
+cerveau.json
+conversation.json
+parametres.json
+memoire_modele.bin
+memoire_modele.json
+
+# Modèle de langage et écoute (téléchargés ou compilés sur chaque Mac)
+modeles/
+ecoute/
+
+# Environnement Python et constructions (recréés par les scripts)
+.venv/
+__pycache__/
+*.pyc
+app-mac/build/
+OVER.app/
+versions/
+*.dmg
+*.log
+
+# Fichiers propres à chaque Mac
+.DS_Store
+xcuserdata/

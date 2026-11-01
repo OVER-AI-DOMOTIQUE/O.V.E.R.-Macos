@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Hors App Store, sans bac à sable : version Debug (⌘R, dossier O.V.E.R. du code source),
+	     construire_app.sh et publier_app.sh (Developer ID). Hardened Runtime : seulement ces droits. -->
+	<!-- Micro : bouton micro et raccourci pour parler (rien n'est envoyé) -->
+	<key>com.apple.security.device.audio-input</key>
+	<true/>
+	<!-- Rappels et Calendrier (EventKit) : créer un rappel, lire l'agenda du jour pour le briefing -->
+	<key>com.apple.security.personal-information.calendars</key>
+	<true/>
+</dict>
+</plist>
