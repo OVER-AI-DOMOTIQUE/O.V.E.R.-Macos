@@ -13,13 +13,13 @@
 [![Licence](https://img.shields.io/badge/licence-PolyForm%20Noncommercial%201.0.0-d9b45f?style=flat-square)](LICENSE.md)
 [![100 % local](https://img.shields.io/badge/IA-100%20%25%20locale-e23a4e?style=flat-square)](#confidentialité)
 
-**[Télécharger](https://github.com/OVER-AI-DOMOTIQUE/O.V.E.R.-Macos/releases/latest)** · **[Site officiel](https://iaover.fr)** · **[Vidéo de présentation](https://github.com/OVER-AI-DOMOTIQUE/O.V.E.R.-Macos/releases/latest/download/over-presentation.mp4)**
+**[Télécharger](https://github.com/OVER-AI-DOMOTIQUE/O.V.E.R.-Macos/releases/latest)** · **[Site officiel](https://iaover.fr)** · **[Vidéo de présentation](https://github.com/user-attachments/assets/64a4ea94-5241-4ce7-9c50-c18038e4b0cd)**
 
-<a href="https://github.com/OVER-AI-DOMOTIQUE/O.V.E.R.-Macos/releases/latest/download/over-presentation.mp4">
-  <img src="docs/medias/apercu-anime.gif" alt="Aperçu animé d'O.V.E.R. AI : discussion, actions sur le Mac, voix et recherche web" width="880">
+<a href="https://github.com/user-attachments/assets/64a4ea94-5241-4ce7-9c50-c18038e4b0cd">
+  <img src="docs/medias/presentation-apercu.jpg" alt="Vidéo de présentation d'O.V.E.R. AI (1 minute) : cliquer pour la lancer" width="880">
 </a>
 
-▶ **[Vidéo complète, avec musique (1 min, MP4)](https://github.com/OVER-AI-DOMOTIQUE/O.V.E.R.-Macos/releases/latest/download/over-presentation.mp4)**
+▶ **[Voir la vidéo de présentation (1 min, avec musique)](https://github.com/user-attachments/assets/64a4ea94-5241-4ce7-9c50-c18038e4b0cd)**
 
 </div>
 
